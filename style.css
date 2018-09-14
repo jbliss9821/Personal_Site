@@ -5,8 +5,7 @@ body {
 }
 
 .hero-image {
-	background-image: url("mountain.jpg");
-	background-color: #404040;
+	background: linear-gradient(rgba(60, 60, 60, 0.55), rgba(60, 60, 60, 0.55)),  url("mountain.jpg");
 	height: 250px;
 	background-position: center;
 	background-repeat: no-repeat;

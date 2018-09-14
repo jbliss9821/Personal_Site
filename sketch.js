@@ -57,17 +57,17 @@ function random_quote(){
 	let author;
 	
 	if (choice == 1){
-		quote = "You miss 100% of the shots you don't take.";
-		author = "Wayne Gretzky";
+		quote = "\"You miss 100% of the shots you don't take.";
+		author = "Wayne Gretzky\"";
 		let sub_author = "Michael Scott";
 		document.getElementById("sub_author").innerHTML = "-" + sub_author;
 	}
 	else if (choice == 2){
-		quote = "Bowling is fun because it is Zen.  But zen is more fun when you win.";
+		quote = "\"I like bolwing because it is zen.  But zen is more fun when you win.\"";
 		author = "Patrick Barry";
 	}
 	else{
-		quote = "I am Groot.";
+		quote = "\"I am Groot.\"";
 		author = "Groot";
 		
 	}
